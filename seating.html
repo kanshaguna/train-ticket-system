@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Train Booking App</title>
+  <link rel="stylesheet" type="text/css" href="seating.css">
+</head>
+<body>
+    <h1>Select Your Seat</h1>
+    <ul class="showcase">
+        <li>
+        <div class="seat"></div>
+        <small>Vacant</small>
+        </li>
+        <li>
+        <div class="seat occupied"></div>
+        <small>Occupied</small>
+        </li>
+    </ul>
+    <form id="ticket-form">
+        <div id="seating-plan"></div>
+        <input type="submit" value="Book Ticket">
+    </form>
+
+    <button id="view-history-btn">View History</button>
+
+    <div id="ticket-history" style="display: none;">
+        <h3>Ticket History</h3>
+        <table id="history-table" >
+            <thead>
+                <tr>
+                    <th>Ticket ID</th>
+                    <th>Date</th>
+                    <th>From Location</th>
+                    <th>To Location</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="history-table-body">
+                <!-- Ticket history rows will be dynamically added here -->
+            </tbody>
+        </table>
+    </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+  <script src="history.js"></script>
+</body>
+</html>

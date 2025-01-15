@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    /* background-image: url('tkt.jpg'); */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.train-type {
+    width: 70%;
+    background-color:rgb(207, 207, 207);
+    border: 1px black;
+    padding:40px;
+    display: flex;
+    margin: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+#view-seating-btn {
+    background-color:rgb(24, 24, 92);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100px;
+    padding: 10px;
+    margin: 10px ;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+    
+}
