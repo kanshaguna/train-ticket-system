@@ -5,6 +5,6 @@ The train ticketing system works in real-time locking a seat when a user selects
 Technical stack used : HTML, CSS, Javascript, NodeJs, WebSocket
 
 _**Please refer to the attached video (V1) for a demo.
-Please note that the booking summary is still a work in progress. **_
+Please note that some code related to the booking summary has been commented out as it is still a work in progress and so it does not interfere with the current working elements. **_
 
 
